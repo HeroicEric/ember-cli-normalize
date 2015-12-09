@@ -6,7 +6,7 @@ Easily add [normalize.css][normalize] to your ember-cli app.
 
 ### Dynamic Styles (SCSS, LESS, etc)
 
-```sass
+```scss
 // app/styles/app.scss
 
 @import "normalize";
