@@ -8,7 +8,7 @@ test('normalize styles are being applied', function(assert) {
   visit('/');
 
   andThen(() => {
-    let fontFamily = jQuery('html').css('font-family');
-    assert.equal(fontFamily, 'sans-serif');
+    let fontFamily = jQuery('pre').css('font-family');
+    assert.equal(fontFamily, 'monospace, monospace', 'PRE has expected font-family');
   });
 });

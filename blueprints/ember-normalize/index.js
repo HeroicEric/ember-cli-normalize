@@ -6,6 +6,6 @@ module.exports = {
   },
 
   afterInstall: function() {
-    return this.addPackageToProject('normalize.css', '~4.1.1');
+    return this.addPackageToProject('normalize.css', '~6.0.0');
   }
 };
