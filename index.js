@@ -8,10 +8,10 @@ module.exports = {
   name: 'ember-normalize',
 
   treeForStyles: function() {
-    var normalizePath = path.join(this.project.nodeModulesPath, 'normalize.css');
-    var normalizeTree = new Funnel(this.treeGenerator(normalizePath), {
-      srcDir: '/',
-      destDir: '/app/styles'
+    var normalizeModulePath = path.dirname(this.project.resolveSync('normalize.css'));
+    var normalizeTree = new Funnel(this.treeGenerator(normalizeModulePath), {
+      destDir: 'app/styles',
+      include: ['normalize.css']
     });
 
     return normalizeTree;
