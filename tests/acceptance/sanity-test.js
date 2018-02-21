@@ -9,6 +9,6 @@ test('normalize styles are being applied', function(assert) {
 
   andThen(() => {
     let fontFamily = jQuery('pre').css('font-family');
-    assert.equal(fontFamily, 'monospace, monospace', 'PRE has expected font-family');
+    assert.equal(fontFamily, 'monospace', 'PRE has expected font-family');
   });
 });
