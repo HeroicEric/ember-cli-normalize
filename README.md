@@ -1,47 +1,8 @@
-# ember-normalize
+# DEPRECATED ember-normalize
 
-[![Build Status](https://travis-ci.org/HeroicEric/ember-normalize.svg?branch=master)](https://travis-ci.org/HeroicEric/ember-normalize)
+You shouldn't need this addon anymore. If you want to use
+[Normalize.css][normalize] in your app, check out some of the examples in the
+pull requests at at [ember-normalize-example].
 
-Easily add [normalize.css][normalize] to your ember-cli app.
-
-## Usage
-
-### Dynamic Styles (SCSS, LESS, etc)
-
-```sass
-// app/styles/app.scss
-
-@import "normalize";
-```
-
-### Static CSS
-
-```css
-/* app/styles/app.css */
-
-@import "normalize.css";
-```
-
-## Installation
-
-If you're using ember-cli v0.2.3+:
-
-```no-highlight
-ember install ember-normalize
-```
-
-If you're using ember-cli v0.1.5 - v0.2.2:
-
-```no-highlight
-ember install:addon ember-normalize
-```
-
-If you're using an older version of ember-cli:
-
-```no-highlight
-npm install ember-normalize --save-dev
-ember generate ember-normalize
-```
-
-[bower]: http://bower.io "bower"
+[ember-normalize-example]: https://github.com/HeroicEric/ember-normalize-example/pulls
 [normalize]: https://github.com/necolas/normalize.css/ "normalize.css"
